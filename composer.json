@@ -1,0 +1,32 @@
+{
+  "name": "sheepy/sheepy-for-woocommerce",
+  "description": "WooCommerce Payment Plugin",
+  "authors": [
+    {
+      "name": "Sheepy",
+      "email": "call@sheepy.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.3",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sheepy\\WooCommerce\\": "src/"
+    },
+    "classmap": [
+      "sheepy-for-woocommerce.php",
+      "vendor/sheepy-api/Client.php"
+    ],
+    "exclude-from-classmap": []
+  },
+  "config": {
+    "preferred-install": "dist",
+    "optimize-autoloader": true,
+    "prepend-autoloader": false
+  },
+  "type": "woocommerce-module",
+  "author": "Sheepy",
+  "license": "GPLv3"
+}

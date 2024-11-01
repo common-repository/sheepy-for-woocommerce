@@ -1,0 +1,28 @@
+{
+  "name": "sheepy-for-woocommerce",
+  "title": "WooCommerce Gateway Sheepy",
+  "version": "1.0.0",
+  "license": "GPLv3",
+  "devDependencies": {
+    "@woocommerce/dependency-extraction-webpack-plugin": "^2.3.0",
+    "@wordpress/scripts": "^27.6.0",
+    "cross-env": "^7.0.3"
+  },
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip"
+  },
+  "files": [
+    "assets/*.png",
+    "dist/**",
+    "src/**",
+    "vendor/**",
+    "composer.json",
+    "sheepy-for-woocommerce.php",
+    "uninstall.php",
+    "license.txt",
+    "README.md"
+  ]
+}
